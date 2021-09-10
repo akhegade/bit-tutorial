@@ -1,7 +1,7 @@
-import React from 'react';
-import ProductList from './components/product-list';
-import TopBar from './components/top-bar';
-import './App.css';
+import React from "react";
+import ProductList from "./components/product-list";
+import TopBar from "./components/top-bar";
+import "./App.css";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <TopBar className="top-bar" />
       <div className="container">
         <ProductList />
+        <TopBar />
       </div>
     </>
   );
